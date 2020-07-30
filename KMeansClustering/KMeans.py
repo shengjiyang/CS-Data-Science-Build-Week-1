@@ -196,6 +196,3 @@ if __name__ == "__main__":
 
     print("\nprediction")
     print(kmeans.predict(pred_data))
-
-    # print("geometric_median")
-    # print(kmeans.geometric_median(data))
