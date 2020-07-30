@@ -4,7 +4,6 @@ import scipy
 from scipy.stats.mstats import gmean
 import sys
 
-
 # Construct KMeans class with attributes n_clusters, n_iter:
   # n_clusters is the desired number of clusters
   # n_iter is the number of iterations the algorithm will go through
@@ -64,7 +63,6 @@ import sys
 
         # return dictionary of values with cluster number as key,
             # and all data points as values.
-
 
 class KMeans:
     def __init__(self, n_clusters, n_iter=10, random_state=None):
